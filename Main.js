@@ -17,7 +17,6 @@ var slideIndex = 0;
   	  dots[slideIndex-1].className += " active";
   	  setTimeout(showSlides, 3500); // Change image every 3.5 seconds
 	}
-var slideIndex = 0;
 	showSlides2();
 
 	function showSlides2() {
