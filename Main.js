@@ -1,3 +1,4 @@
+<>
 var slideIndex = 0;
 	showSlides();
 
@@ -36,3 +37,4 @@ var slideIndex = 0;
   	  setTimeout(showSlides, 3500); // Change image every 3.5 seconds
 	}
         
+</>
