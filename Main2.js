@@ -1,4 +1,4 @@
-Var slideIndex = 0
+Var slideIndex = 0;
 	showSlides2();
 
 	function showSlides2() {
