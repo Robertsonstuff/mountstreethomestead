@@ -47,7 +47,6 @@ body, html {
   float: left;
   width: 33%;
   padding: 0 10px;
-  
 }
 	
 
@@ -57,40 +56,38 @@ body, html {
   padding: 10px;
   margin-top: 10px;
   position: relative; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
 }
 
 .column .card1 {
-  index-z: 0;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
   position: relative; /* Position the background text */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  /*Background-image: url(images/sunday_waits_ep.jpg)*/
 }
 
 .column .card2 {
-  index-z: 0;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
   position: relative; /* Position the background text */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  /*Background-image: url(images/aristocrats_trio.jpg)*/
 }
 .column .card3 {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
   position: relative; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  /*Background-image: url(images/cassette.jpg)*/
 }
 row:after {
     content: "";
