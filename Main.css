@@ -170,3 +170,17 @@ body, html {
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   /*Background-image: url(images/cassette.jpg)*/
 }
+row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
