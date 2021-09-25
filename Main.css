@@ -46,13 +46,13 @@ Third image (Contact)
 */	
 .column {
   float: left;
-  width: 30%;
-  padding: 0 5px;
+  width: 33%;
+  padding: 0 10px;
 }
 	
 
 /* Add a card effect for articles */
-.card {
+.column .card {
   background-color: white;
   margin-top: 10px;
   position: relative; /* Position the background text */
@@ -61,38 +61,6 @@ Third image (Contact)
   width: 100%; /* Full width */
 }
 
-.column .card1 {
-  background-color: white;
-  padding: 10px;
-  margin-top: 10px;
-  position: relative; /* Position the background text */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  height: 30%;
-  width: 100%; /* Full width */
-  Background-image: url("tiger1.jpg");
-}
-
-.column .card2 {
-  background-color: white;
-  padding: 10px;
-  margin-top: 10px;
-  position: relative; /* Position the background text */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  Background-image: url("tiger2.jpg");
-}
-.column .card3 {
-  background-color: white;
-  padding: 10px;
-  margin-top: 10px;
-  position: relative; /* Position the background text */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  Background-image: url("tiger3.jpg");
-}
 row:after {
     content: "";
     display: table;
