@@ -45,7 +45,7 @@ Third image (Contact)
 }
 */	
 .column {
-  float: left;
+  float: center;
   width: 30%;
   padding: 0 10px;
 }
