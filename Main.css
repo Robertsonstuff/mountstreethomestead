@@ -5,7 +5,18 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*
+body, html {
+  height: 100%;
+}
+
+
 
  Create a Parallax Effect 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -45,8 +56,6 @@ Third image (Contact)
 }
 */	
 .column {
-  float: left;
-  width: 30%;
   padding: 0 10px;
 }
 	
