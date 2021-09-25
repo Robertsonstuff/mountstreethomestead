@@ -58,7 +58,25 @@ Third image (Contact)
   position: relative; /* Position the background text */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
+  width: 100%; 
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  transform: skew(10deg);
+  margin-right: 5px;
+  margin-left: 5px;
+  animation: shake 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewY(10deg);
+  }
+  100% {
+    transform: skewY(-10deg);
+  }
+}
 }
 
 row:after {
