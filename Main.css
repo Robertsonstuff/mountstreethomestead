@@ -56,8 +56,6 @@ Third image (Contact)
 }
 */	
 .column {
-  float: left;
-  width: 32%;
   padding: 0 10px;
 }
 	
@@ -98,7 +96,7 @@ row:after {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-    display: block;
+    display: inline-block;
     margin-bottom: 20px;
   }
 }
